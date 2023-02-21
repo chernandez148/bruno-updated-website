@@ -1,0 +1,57 @@
+header {
+    background-image: url("../assets/bg-img.png");
+    background-size: cover;
+    background-position: center;
+    max-height: 600px;
+    height: 600px;
+}
+nav {
+    background-image: linear-gradient(black, transparent);
+}
+
+ul li a {
+    color: white!important;
+}
+
+.display-7 {
+    font-size: 2rem;
+    font-weight: 300;;
+}
+
+.accent-font {
+    color: #ecc085;
+}
+
+button {
+transition: all .25s ease;
+
+}
+
+button:hover {
+    background-color: #ecc085;
+    color: white;
+}
+
+.takeout-specials img {
+    max-width: 300px;
+}
+
+.divider {
+    border: 2px solid #f39a34;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000!important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../assets/left.png)!important;
+    height: 30px!important;
+    width: 15px!important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/right.png)!important;
+    height: 30px!important;
+    width: 15px!important;
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruno Italian Kitchen</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="./src/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav justify-content-center align-items-center me-auto mb-2 mb-lg-0 w-100"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Eat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Drink</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Happenings</a>
+              </li>
+              <li class="nav-item">
+                <img src="assets/logo.png" alt="logo" width="450px" />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Takeout Special</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Order Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <p class="text-center text-white display-7 mt-5 pt-5">
+        <i
+          >A little piece of <span class="accent-font">Italy</span> in
+          <span class="accent-font">Brea</span>.</i
+        >
+      </p>
+      <div class="row">
+        <div class="col text-center">
+          <button class="border-0 mt-3 px-4 py-2">Reservations</button>
+        </div>
+      </div>
+    </header>
+    <div class="takeout-specials my-md-5 py-5">
+      <div class="container">
+        <div class="row flex-md-row flex-column justify-content-center">
+          <div class="col-12 pb-4">
+            <h2 class="text-center fw-light">ONLINE EXCLUSIVES</h2>
+            <h5 class="text-center fw-light">
+              FREE DELIVERIES ON ORDERS OVER $50
+            </h5>
+          </div>
+          <div class="col-md-3 col text-center">
+            <img
+              src="./assets/italian-classic-tuesday.png"
+              alt=""
+              width="100%"
+            />
+            <h5 class="fw-normal pt-2">ITALIAN CLASSICS TUESDAY</h5>
+            <p>
+              Tuesday’s a la carte menu pricing features $8 appetizers and wine,
+              $17 pastas and entrees, and $5 desserts
+            </p>
+          </div>
+          <div class="col-md-3 col text-center">
+            <img
+              src="./assets/chicken-parm-and-cioppino-thursday.png"
+              alt=""
+              width="100%"
+            />
+            <h5 class="fw-normal pt-2">CHICKEN PARM & CIOPPINO THURSDAY</h5>
+            <p>
+              Every Thursday, enjoy a $25 special featuring an Italian Chop
+              Salad, Chicken Parmesan or Cioppino Dish, and Tiramisu dessert!
+            </p>
+          </div>
+          <div class="col-md-3 col text-center">
+            <img src="./assets/weekend-special.png" alt="" width="100%" />
+            <h5 class="fw-normal pt-2">WEEKEND SPECIALS</h5>
+            <p>Enjoy a new $30 3-course special every weekend!</p>
+          </div>
+          <div class="col-12 text-center pt-4">
+            <button class="border-0 mt-3 px-4 py-2">ORDER & VIEW MENU</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="happenings container-fluid">
+      <h2 class="text-center fw-light">WEEKLY HAPPENINGS</h2>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner container py-md-5 py-3 pb-5">
+          <div class="carousel-item active">
+            <div class="row flex-column-reverse flex-md-row">
+              <div
+                class="col d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="fw-normal pt-2 text-center">LASAGNA MONDAY</h3>
+                <hr class="divider" width="200px" />
+                <h5 class="fw-light text-center text-md-initial">
+                  Enjoy a caesar salad, lasagna, & garlic bread for $20 every
+                  Monday
+                </h5>
+              </div>
+              <div class="col">
+                <img
+                  src="./assets/lasagna.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row flex-column-reverse flex-md-row">
+              <div
+                class="col d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="fw-normal pt-2 text-center">
+                  ITALIAN CLASSICS TUESDAY
+                </h3>
+                <hr class="divider" width="200px" />
+                <h5 class="fw-light text-center text-md-initial">
+                  Tuesday’s a la carte menu pricing features $8 appetizers and
+                  wine, $17 pastas and entrees, and $5 desserts
+                </h5>
+              </div>
+              <div class="col">
+                <img
+                  src="./assets/lasagna.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row flex-column-reverse flex-md-row">
+              <div
+                class="col d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="fw-normal pt-2 text-center">
+                  WINE-D DOWN WEDNESDAY
+                </h3>
+                <hr class="divider" width="200px" />
+                <h5 class="fw-light text-center text-md-initial">
+                  Enjoy a caesar salad, lasagna, & garlic bread for $20 every
+                  Monday
+                  <br />
+                  <br />
+                  *Available for dine-in only
+                </h5>
+              </div>
+              <div class="col">
+                <img
+                  src="./assets/lasagna.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row flex-column-reverse flex-md-row">
+              <div
+                class="col d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="fw-normal pt-2 text-center">
+                  CHICKEN PARM OR CIOPPINO THURSDAY
+                </h3>
+                <hr class="divider" width="200px" />
+                <h5 class="fw-light text-center text-md-initial">
+                  Every Thursday, enjoy a $25 special featuring an Italian Chop
+                  Salad, Chicken Parmesan or Cioppino Dish, and Tiramisu
+                  dessert!
+                </h5>
+              </div>
+              <div class="col">
+                <img
+                  src="./assets/lasagna.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row flex-column-reverse flex-md-row">
+              <div
+                class="col d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="fw-normal pt-2 text-center">DAILY HAPPY HOUR</h3>
+                <hr class="divider" width="200px" />
+                <h5 class="fw-light text-center text-md-initial">
+                  <span class="fw-normal">IN THE LOUNGE:</span>
+                  <br />
+                  <br />
+                  MONDAY – THURSDAY: ALL NIGHT
+                  <br />
+                  FRIDAY – SATURDAY: 4 PM – 7 PM
+                </h5>
+              </div>
+              <div class="col">
+                <img
+                  src="./assets/lasagna.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev my-md-5 my-3"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next my-md-5 my-3"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
